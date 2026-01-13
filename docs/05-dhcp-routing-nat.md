@@ -36,16 +36,15 @@ Goal: Set up DHCP on the DC for clients, enable routing/NAT so clients get inter
      Install-WindowsFeature -Name Routing -IncludeManagementTools
 
 Open Routing and Remote Access (Tools → Routing and Remote Access)
-Right-click server name (DC01) → Configure and Enable Routing and Remote Access
-Next → choose NAT → Next
-Public interface: select your INTERNET (NAT) adapter
-Next → Finish (service starts automatically)
+   - Right-click server name (DC01) → Configure and Enable Routing and Remote Access
+   - Next → choose NAT → Next
+   - Public interface: select your INTERNET (NAT) adapter
+   - Next → Finish (service starts automatically)
 
 Verify on DC
-ipconfig /all → confirm:
-INTERNET (NAT): ~10.0.2.15, gateway 10.0.2.2
-INTERNAL-LAB: 192.168.56.10, no gateway
-
-DHCP console → expand scope → Address Leases (empty until client connects)
+   - ipconfig /all → confirm:
+   - INTERNET (NAT): ~10.0.2.15, gateway 10.0.2.2
+   - INTERNAL-LAB: 192.168.56.10, no gateway
+   - DHCP console → expand scope → Address Leases (empty until client connects)
 
 Next: [06-client-setup-join-domain.md](06-client-setup-join-domain.md)
