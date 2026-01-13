@@ -29,7 +29,7 @@ Features:
    # Create a user in Finance department
    .\NewUserOnboard.ps1 -FirstName "Alex" -LastName "Rivera" -Department "Finance"
 
-Expected output (example):textAttempting to create user: jlee (Jess Lee)
+Expected output (example): Attempting to create user: jlee (Jess Lee)
 Password will be set to: TempPass123!
 User jlee created successfully!
 User added to group: HR-FullAccess
