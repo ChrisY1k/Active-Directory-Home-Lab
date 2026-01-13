@@ -29,15 +29,15 @@ Features:
    # Create a user in Finance department
    .\NewUserOnboard.ps1 -FirstName "Alex" -LastName "Rivera" -Department "Finance"
 
-Expected output (example): Attempting to create user: jlee (Jess Lee)
-Password will be set to: TempPass123!
-User jlee created successfully!
-User added to group: HR-FullAccess
+Expected output (example): 
+- Attempting to create user: jlee (Jess Lee)
+- Password will be set to: TempPass123!
+- User jlee created successfully!
+- User added to group: HR-FullAccess
 
 Security Notes
-
-The lab password ("TempPass123!") is intentionally simple — in production, use strong, random passwords or integrate with a password manager
-The script uses -ChangePasswordAtLogon $true so users must change their password on first login (security best practice)
-Always run scripts as a Domain Admin account
+- The lab password ("TempPass123!") is intentionally simple — in production, use strong, random passwords or integrate with a password manager.
+- The script uses -ChangePasswordAtLogon $true so users must change their password on first login (security best practice).
+- Always run scripts as a Domain Admin account.
 
 Next: 08-file-share-permissions.md
