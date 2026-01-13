@@ -41,19 +41,11 @@ Next → choose NAT → Next
 Public interface: select your INTERNET (NAT) adapter
 Next → Finish (service starts automatically)
 
-
 Verify on DC
 ipconfig /all → confirm:
 INTERNET (NAT): ~10.0.2.15, gateway 10.0.2.2
 INTERNAL-LAB: 192.168.56.10, no gateway
 
 DHCP console → expand scope → Address Leases (empty until client connects)
-
-
-Common Issues & Fixes
-
-Clients get 169.254.x.x → DHCP not bound to correct adapter (check Bindings tab)
-No internet on DC → ping 8.8.8.8 fails → NAT adapter offline (disable/enable in ncpa.cpl)
-Scope not active → right-click scope → Activate
 
 Next: [06-client-setup-join-domain.md](06-client-setup-join-domain.md)
