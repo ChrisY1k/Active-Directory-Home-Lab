@@ -53,6 +53,11 @@ Demonstrates: virtualization, networking, AD DS, DNS/DHCP, PowerShell automation
 | User Creation Script Run    | [user-creation-script-run.png](screenshots/user-creation-script-run.png) |
 | File Share – Full Access    | [file-share-access-full.png](screenshots/file-share-access-full.png) |
 | Certificate Auto-Enrollment | [certificate-autoenroll.png](screenshots/certificate-autoenroll.png) |
+| DHCP Scope Configuration          | [dhcp-scope-config.png](screenshots/dhcp-scope-config.png)                      |
+| GPO Auto-Enrollment Setting       | [gpo-editor-autoenroll.png](screenshots/gpo-editor-autoenroll.png)              |
+| Client IP Configuration           | [ipconfig-on-client.png](screenshots/ipconfig-on-client.png)                    |
+| Access Denied (ReadOnly User)     | [access-denied-readonly.png](screenshots/access-denied-readonly.png)            |
+| Certification Authority Console   | [certsrv-console.png](screenshots/certsrv-console.png)                          |
 
 ## 📄 Full Documentation
 
