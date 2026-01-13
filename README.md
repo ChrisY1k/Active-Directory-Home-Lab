@@ -1,6 +1,6 @@
 # Active Directory Home Lab – VirtualBox (Windows Server 2022 + Windows 11)
 
-<img src="screenshots/overview-diagram.png" alt="Lab Architecture Overview" width="800"/>
+<img src="screenshots/overview-diagram.jpg" alt="Lab Architecture Overview" width="800"/>
 
 A complete, isolated Active Directory environment built in **Oracle VirtualBox** to simulate enterprise identity management, user provisioning, policy enforcement, file sharing, and basic PKI.
 
@@ -48,7 +48,7 @@ Demonstrates: virtualization, networking, AD DS, DNS/DHCP, PowerShell automation
 
 | Step                        | Screenshot Link                                      |
 |-----------------------------|------------------------------------------------------|
-| Lab Network Architecture    | [overview-diagram.png](screenshots/overview-diagram.png) |
+| Lab Network Architecture    | [overview-diagram.jpg](screenshots/overview-diagram.jpg) |
 | DC Dual NIC Config          | [dc-network-adapters.png](screenshots/dc-network-adapters.png) |
 | User Creation Script Run    | [user-creation-script-run.png](screenshots/user-creation-script-run.png) |
 | File Share – Full Access    | [file-share-access-full.png](screenshots/file-share-access-full.png) |
