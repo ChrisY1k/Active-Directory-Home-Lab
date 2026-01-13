@@ -40,4 +40,4 @@ Security Notes
 - The script uses -ChangePasswordAtLogon $true so users must change their password on first login (security best practice).
 - Always run scripts as a Domain Admin account.
 
-Next: 08-file-share-permissions.md
+Next: [08-file-share-permissions.md](08-file-share-permissions.md)
