@@ -2,7 +2,12 @@
 
 This folder contains detailed, beginner-friendly step-by-step guides covering every major phase of building this Active Directory home lab in Oracle VirtualBox.
 
-The guides are written in chronological order, with screenshots, commands, troubleshooting tips, and explanations of **why** each step matters — perfect for learning, replicating, or showcasing in interviews.
+## How to Use These Guides
+- Start from **01-prerequisites.md** and follow in order.
+- Each guide includes:
+  - Step-by-step instructions
+  - Commands to copy-paste
+  - Troubleshooting notes for common pitfalls
 
 ## Available Guides
 
@@ -19,15 +24,6 @@ The guides are written in chronological order, with screenshots, commands, troub
 | 09    | [09-gpos-examples.md](09-gpos-examples.md)                      | Basic GPOs (desktop restrictions, etc.), linking & testing                 |
 | 10    | [10-ad-certificate-services.md](10-ad-certificate-services.md)            | Installing & configuring Enterprise Root CA, duplicating templates         |
 | 11    | [11-troubleshooting.md](11-troubleshooting.md)                   | Common issues & fixes (offline NAT, unidentified network, DHCP conflicts, etc.) |
-
-## How to Use These Guides
-- Start from **01-prerequisites.md** and follow in order.
-- Each guide includes:
-  - Step-by-step instructions
-  - Screenshots from the actual lab
-  - Commands to copy-paste
-  - Explanations of why the step matters (great for interviews!)
-  - Troubleshooting notes for common pitfalls
 
 Feel free to fork, adapt, or use these as a template for your own labs/portfolio projects.
 
