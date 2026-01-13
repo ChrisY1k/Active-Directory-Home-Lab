@@ -16,22 +16,28 @@ Features:
 
 ## How to Use
 
-1. Save the script to C:\Scripts on DC01 (create the folder if it doesn't exist)
-2. Open PowerShell as Administrator on DC01
+1. Save the script to `C:\Scripts` on DC01 (create the folder if it doesn't exist)
+2. Open **PowerShell** as Administrator on DC01
 3. Run examples:
-cd C:\Scripts
-Create a user in HR department
-.\NewUserOnboard.ps1 -FirstName "Jess" -LastName "Lee" -Department "HR"
-Create a user in Finance department
-.\NewUserOnboard.ps1 -FirstName "Alex" -LastName "Rivera" -Department "Finance"
-text4. Expected output (example):
-Attempting to create user: jlee (Jess Lee)
+
+   ```powershell
+   cd C:\Scripts
+   
+   # Create a user in HR department
+   .\NewUserOnboard.ps1 -FirstName "Jess" -LastName "Lee" -Department "HR"
+   
+   # Create a user in Finance department
+   .\NewUserOnboard.ps1 -FirstName "Alex" -LastName "Rivera" -Department "Finance"
+
+Expected output (example):textAttempting to create user: jlee (Jess Lee)
 Password will be set to: TempPass123!
 User jlee created successfully!
 User added to group: HR-FullAccess
-text## Security Notes
-- The lab password ("TempPass123!") is intentionally simple — in production, use strong, random passwords or integrate with a password manager
-- The script uses `-ChangePasswordAtLogon $true` so users must change their password on first login (security best practice)
-- Always run scripts as a Domain Admin account
 
-Next: [08-file-share-permissions.md](08-file-share-permissions.md)
+Security Notes
+
+The lab password ("TempPass123!") is intentionally simple — in production, use strong, random passwords or integrate with a password manager
+The script uses -ChangePasswordAtLogon $true so users must change their password on first login (security best practice)
+Always run scripts as a Domain Admin account
+
+Next: 08-file-share-permissions.md
