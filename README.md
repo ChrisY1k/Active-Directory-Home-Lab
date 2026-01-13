@@ -25,7 +25,7 @@ Demonstrates: virtualization, networking, AD DS, DNS/DHCP, PowerShell automation
 ## 📋 What You'll Find in This Repo
 
 - [docs/](docs/) – Detailed step-by-step guides (beginner friendly)
-- [scripts/](scripts/) – PowerShell automation examples
+- [scripts/](scripts/) – PowerShell automation script used
 - [screenshots/](screenshots/) – Visual proof of every major step
 
 ## 🚀 Quick Start / Key Achievements
