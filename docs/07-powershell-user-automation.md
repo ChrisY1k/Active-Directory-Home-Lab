@@ -4,7 +4,7 @@ Goal: Automate the creation of Active Directory users, place them in the correct
 
 ## Main Script: NewUserOnboard.ps1
 
-Full code: [scripts/NewUserOnboard.ps1](../scripts/NewUserOnboard.ps1) (Script is not perfect and can be further optimised).
+Full code: [scripts/NewUserOnboard.ps1](../scripts/NewUserOnboard.ps1). (Script is not perfect and can be further optimised).
 
 Features:
 - Takes FirstName, LastName, and Department as input parameters
