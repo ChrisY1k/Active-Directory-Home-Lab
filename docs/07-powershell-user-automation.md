@@ -29,19 +29,6 @@ Attempting to create user: jlee (Jess Lee)
 Password will be set to: TempPass123!
 User jlee created successfully!
 User added to group: HR-FullAccess
-text## Bulk Creation Example (Optional – For Testing)
-
-To quickly create many test users (e.g., 50 users):
-$password = ConvertTo-SecureString "TempPass123!" -AsPlainText -Force
-1..50 | ForEach-Object {
-$num = "{0:000}" -f $_
-$name = "user$num"
-New-ADUser -Name $name                -SamAccountName $name
--UserPrincipalName "$name@homelab.int"                -Path "OU=Employees,DC=homelab,DC=int"
--AccountPassword $password                -Enabled $true
--PasswordNeverExpires $true
-Write-Output "Created user$name"
-}
 text## Security Notes
 - The lab password ("TempPass123!") is intentionally simple — in production, use strong, random passwords or integrate with a password manager
 - The script uses `-ChangePasswordAtLogon $true` so users must change their password on first login (security best practice)
